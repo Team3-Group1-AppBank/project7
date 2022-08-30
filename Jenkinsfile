@@ -26,7 +26,7 @@ pipeline {
 					sh 'bash -x /var/lib/jenkins/project7/frank.sh'
 			}
 			 	}
-	           stage('6-run sukhman script'){
+	           	stage('6-run sukhman script'){
 				steps{
 					sh 'bash -x /var/lib/jenkins/project7/sukhman.sh'
        				}
