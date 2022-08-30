@@ -1,6 +1,6 @@
 # Project 7
 **Steps taken to contribute to the project**
-- Created a Jenkins server on AWS with best practice minimum requirements - **T2 medium, 20GB, Ubuntu 18.04 AMI.**```
+- Created a Jenkins server on AWS with best practice minimum requirements - **T2 medium, 20GB, Ubuntu 18.04 AMI.**
 - Created users to be able to ssh to the server
 - Users created script in the Jenkins server (project 7) - **/var/lib/jenkins/project7**
 - Created the project repo. in the organization's GitHub.
