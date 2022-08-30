@@ -3,7 +3,8 @@ pipeline {
 		stages{
 			stage('1-clone repo'){
 				steps{
-				checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'team3hook', url: 
+				checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'team3hook', url: 'https://github.com/Team3-Group1-AppBank/project7.git']]])
+
 
 				}
 			}
