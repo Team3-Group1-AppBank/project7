@@ -1,7 +1,7 @@
 # Project 7
 **#Steps taken to contribute to the project**
-```Created a Jenkins server on AWS with best practice minimum requirements - **T2 medium, 20GB, Ubuntu 18.04 AMI.**```
-```Created users to be able to ssh to the server. ```
+- Created a Jenkins server on AWS with best practice minimum requirements - **T2 medium, 20GB, Ubuntu 18.04 AMI.**```
+- Created users to be able to ssh to the server. ```
 Users created script in the jenkins server (project 7) - **/var/lib/jenkins/project7**
 Created the project repo. in the organization GitHub.
 Configured webhook settings in the Github repo by specifying the Jenkins server's URL
