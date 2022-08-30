@@ -46,6 +46,5 @@ pipeline {
 					sh 'bash -x /var/lib/jenkins/project7/kingsley.sh'
        				}
       			}
-			
     		}
 	}
