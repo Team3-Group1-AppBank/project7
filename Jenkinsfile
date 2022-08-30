@@ -31,7 +31,24 @@ pipeline {
 	           stage('6-run sukhman script'){
 				steps{
 					sh 'bash -x /var/lib/jenkins/project7/sukhman.sh'
-       }
-      }
+       				}
+      		   }
+			 stage('7-run joe script'){
+				steps{
+					sh 'bash -x /var/lib/jenkins/project7/joe.sh'
+       				}
+      			}
+			
+			stage('8-run kingsley script'){
+				steps{
+					sh 'bash -x /var/lib/jenkins/project7/kingsley.sh'
+       				}
+      			}
+			
+			stage('9-run gloria script'){
+				steps{
+					sh 'bash -x /var/lib/jenkins/project7/gloria.sh'
+       				}
+      			}
     }
 }
