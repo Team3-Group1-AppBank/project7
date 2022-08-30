@@ -4,8 +4,6 @@ pipeline {
 			stage('1-clone repo'){
 				steps{
 				checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'team3hook', url: 'https://github.com/Team3-Group1-AppBank/project7.git']]])
-
-
 				}
 			}
 			stage('2-run victoria script'){
@@ -23,16 +21,16 @@ pipeline {
 					sh 'bash -x /var/lib/jenkins/project7/temi.sh'
 				}
 			}
-      			 stage('5-run frank script'){
-			steps{
-			sh 'bash -x /var/lib/jenkins/project7/frank.sh'
+      			stage('5-run frank script'){
+				steps{
+					sh 'bash -x /var/lib/jenkins/project7/frank.sh'
 			}
-			 }
+			 	}
 	           stage('6-run sukhman script'){
 				steps{
 					sh 'bash -x /var/lib/jenkins/project7/sukhman.sh'
        				}
-      		   }
+      		   	}
 			 stage('7-run joe script'){
 				steps{
 					sh 'bash -x /var/lib/jenkins/project7/joe.sh'
@@ -49,5 +47,5 @@ pipeline {
        				}
       			}
 			
-    }
-}
+    		}
+	}
