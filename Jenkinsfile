@@ -24,8 +24,8 @@ pipeline {
       			stage('5-run frank script'){
 				steps{
 					sh 'bash -x /var/lib/jenkins/project7/frank.sh'
-			}
-			 	}
+				}
+			 }
 	           	stage('6-run sukhman script'){
 				steps{
 					sh 'bash -x /var/lib/jenkins/project7/sukhman.sh'
@@ -48,3 +48,5 @@ pipeline {
       			}
     		}
 	}
+
+
