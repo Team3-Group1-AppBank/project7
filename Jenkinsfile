@@ -38,14 +38,7 @@ pipeline {
 					sh 'bash -x /var/lib/jenkins/project7/joe.sh'
        				}
       			}
-			
-			stage('8-run kingsley script'){
-				steps{
-					sh 'bash -x /var/lib/jenkins/project7/kingsley.sh'
-       				}
-      			}
-			
-			stage('9-run gloria script'){
+			stage('8-run gloria script'){
 				steps{
 					sh 'bash -x /var/lib/jenkins/project7/nana.sh'
        				}
