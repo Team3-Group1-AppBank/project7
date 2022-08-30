@@ -47,7 +47,7 @@ pipeline {
 			
 			stage('9-run gloria script'){
 				steps{
-					sh 'bash -x /var/lib/jenkins/project7/gloria.sh'
+					sh 'bash -x /var/lib/jenkins/project7/nana.sh'
        				}
       			}
     }
